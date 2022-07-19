@@ -204,4 +204,51 @@ footer{
     background-color:#1B1A17;
 }
 
+@media screen and (max-width:1170px){
+    #content{
+        width: 100%;
+        margin:0px;
+    }
+    ul{
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #contentDesc{
+        margin-bottom: 50px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    aside{
+        margin-top: 70px;
+    }
+    a{
+        margin-top:10px;
+    }
+}
+@media screen and (max-width: 610px){
+    #imgSejarah{
+        width:100%;
+    }
+}
+@media screen and (max-width: 420px){
+    #sejarah{
+        padding-top:90px;
+    }
+    .content-h1{
+        width:100%;
+        font-size: 20px;
+    }
+    #contentImage img{
+        width: 400px;
+    }
+};
+
+
+    
 
